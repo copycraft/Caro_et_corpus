@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "caro_et_corpus",
+  "version": "${version}",
+  "name": "Caro et Corpus",
+  "description": "",
+  "authors": ["CopycraftDev"],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/caro_et_corpus/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "org.copycraftDev.caro_et_corpus.Caro_et_corpus"
+    ]
+  },
+  "mixins": [
+    "caro_et_corpus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
